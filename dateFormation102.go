@@ -18,3 +18,4 @@ func main() {
     tm, _ := time.Parse(layout, "4 May 2021 12:31 AM")
     fmt.Println(tm.Format(time.RFC3339Nano))
 }
+
