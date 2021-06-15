@@ -14,6 +14,6 @@ func main() {
 	t, _ := time.Parse(layoutBD, date)
 	// fmt.Println(t)
 	fmt.Println(t.Format(layoutEN))
-	fmt.Println(t.Format(time.RFC3339))
+	fmt.Println(t.Format(time.RFC3339Nano))
 	// fmt.Println(date)
 }
